@@ -6,7 +6,7 @@ body {
     transition: 0.5s;
 }
 
-.container{
+.cntr1{
     height: 79vh;
 }
 
@@ -58,5 +58,8 @@ footer{
     }
     .section1 h1 {
         font-size: 25px;
+    }
+    .cntr1{
+        height: 100%;
     }
 }
