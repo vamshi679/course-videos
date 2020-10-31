@@ -18,10 +18,15 @@ body {
     font-weight: 400;
 }
 
+img{
+    height: 80px;
+    width: 80px;
+}
+
 a, img {
     box-sizing: border-box;
     margin: 15px;
-    max-width: 125px;
+    /* max-width: 125px; */
     cursor: pointer;
 }
 
