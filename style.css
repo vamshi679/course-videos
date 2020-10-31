@@ -3,13 +3,13 @@ body {
     background: rgb(39, 38, 38);
     color: white;
     font-family: 'Nunito', sans-serif;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 
 .cntr1{
     height: 79vh;
 }
-
+ 
 .spacer {
     padding: 1.5rem;
 }
