@@ -13,9 +13,9 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 
+    <style>
         body {
             background: rgb(39, 38, 38);
             color: white;
@@ -68,7 +68,7 @@
 </head>
 
 <body>
-    <div class="container mt-5">
+    <div class="container-fluid mt-5">
         <header class="text-center">
             <img class="img-fluid" height="100px" width="100px"
                 src="https://res.cloudinary.com/dn00siouh/image/upload/v1603334955/png files/python_iviwn5.png"
@@ -77,7 +77,7 @@
         </header>
         <div class="spacer"></div>
 
-        <div class="container" data-spy="scroll" data-target="#navbar" data-offset="0">
+        <div class="container-fluid" data-spy="scroll" data-target="#navbar" data-offset="0">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
                     <a class="nav-link" href="#videos">Videos</a>
@@ -92,7 +92,7 @@
             </ul>
         </div>
 
-        <div class="container" id="navbar">
+        <div class="container-fluid" id="navbar">
 
             <div id="videos">
                 <div class="spacer"></div>
@@ -102,101 +102,136 @@
                         href="https://www.youtube.com/watch?v=isAFtqGHz6Y&list=PLh6Yk2rpZu2JgeekeyLRQcwZsfLNbW8zQ">Click
                         Here</a> </span>
 
-                <div class="row justify-content-center">
+                <!-- First row -->
+                <div class="row">
                     <!-- First column -->
-                    <div class="col-md-4 mt-3">
+                    <div class="col-md-3 mt-3">
                         <div class="embed-responsive embed-responsive-16by9 rounded">
                             <iframe class="embed-responsive-item" frameborder="0" allowfullscreen
                                 src="https://drive.google.com/file/d/1TZBdrd6a8jjBdKIedtGgSHeQv3Mx4zvW/preview"></iframe>
                         </div>
                         <h4>Python Tutorial part-6</h4><br>
 
-                        <div class="embed-responsive embed-responsive-16by9 rounded">
-                            <iframe class="embed-responsive-item" allowfullscreen
-                                src="https://drive.google.com/file/d/1zJeChA6DNabiQWAram8DPsrXe_LWwLr9/preview"></iframe>
-                        </div>
-                        <h4>Python Tutorial part-9</h4><br>
-
-                        <div class="embed-responsive embed-responsive-16by9 rounded">
-                            <iframe class="embed-responsive-item" allowfullscreen
-                                src="https://drive.google.com/file/d/1ZlL4PF0xJ1qj7S3IbKfRB_YQahr2PTln/preview"></iframe>
-                        </div>
-                        <h4>python Tutorial part-12</h4><br>
-
-                        <div class="embed-responsive embed-responsive-16by9 rounded">
-                            <iframe class="embed-responsive-item" allowfullscreen
-                                src="https://drive.google.com/file/d/13moiz2DYNR3LFM-sQ0VHxRyH8dXqiBdq/preview"></iframe>
-                        </div>
-                        <h4>python Tutorial part-15</h4><br>
-
-                        <div class="embed-responsive embed-responsive-16by9 rounded">
-                            <iframe class="embed-responsive-item" allowfullscreen
-                                src="https://drive.google.com/file/d/1efuUiOavonfnqRnEAMPVv_D5vKCqi5Fs/preview"></iframe>
-                        </div>
-                        <h4>python Tutorial part-18</h4><br>
-
                     </div>
 
                     <!-- second column -->
-                    <div class="col-md-4 mt-3">
+                    <div class="col-md-3 mt-3">
+
                         <div class="embed-responsive embed-responsive-16by9 rounded">
                             <iframe class="embed-responsive-item" allowfullscreen
                                 src="https://drive.google.com/file/d/1TZBdrd6a8jjBdKIedtGgSHeQv3Mx4zvW/preview"></iframe>
                         </div>
                         <h4>Python Tutorial part-7</h4><br>
 
-                        <div class="embed-responsive embed-responsive-16by9 rounded">
-                            <iframe class="embed-responsive-item" allowfullscreen
-                                src="https://drive.google.com/file/d/1l8Y0RZ5hM5xgdarcmQ38tw3_lQ2n-b_9/preview"></iframe>
-                        </div>
-                        <h4>python Tutorial part-10</h4><br>
-
-                        <div class="embed-responsive embed-responsive-16by9 rounded">
-                            <iframe class="embed-responsive-item" allowfullscreen
-                                src="https://drive.google.com/file/d/1pLZBzW3WuDDkYAhVlY_E7isaWXaqD4MX/preview"></iframe>
-                        </div>
-                        <h4>python Tutorial part-13</h4><br>
-
-                        <div class="embed-responsive embed-responsive-16by9 rounded">
-                            <iframe class="embed-responsive-item" allowfullscreen
-                                src="https://drive.google.com/file/d/1C3Oq4Ay_UGI4nC0vHgnsUuXNFBik7WB0/preview"></iframe>
-                        </div>
-                        <h4>python Tutorial part-16</h4><br>
-
-                        <div class="embed-responsive embed-responsive-16by9 rounded">
-                            <iframe class="embed-responsive-item" allowfullscreen
-                                src="https://drive.google.com/file/d/19A5HU7oYuDvt48vOhAuHVwB_MCoKVBWr/preview"></iframe>
-                        </div>
-                        <h4>Database managment common video</h4><br>
                     </div>
 
                     <!-- third column -->
-                    <div class="col-md-4 mt-3">
+                    <div class="col-md-3 mt-3">
+
                         <div class="embed-responsive embed-responsive-16by9 rounded">
                             <iframe class="embed-responsive-item" allowfullscreen
                                 src="https://drive.google.com/file/d/18WT7-VIuY9Xd9w1oIHqQQ84nv6iujhaQ/preview"></iframe>
                         </div>
                         <h4>Python Tutorial part-8</h4><br>
 
+                    </div>
+
+
+                    <div class="col-md-3 mt-3">
+                        <div class="embed-responsive embed-responsive-16by9 rounded">
+                            <iframe class="embed-responsive-item" allowfullscreen
+                                src="https://drive.google.com/file/d/1zJeChA6DNabiQWAram8DPsrXe_LWwLr9/preview"></iframe>
+                        </div>
+                        <h4>Python Tutorial part-9</h4><br>
+                    </div>
+
+                </div>
+
+                <!-- second row -->
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <div class="embed-responsive embed-responsive-16by9 rounded">
+                            <iframe class="embed-responsive-item" allowfullscreen
+                                src="https://drive.google.com/file/d/1l8Y0RZ5hM5xgdarcmQ38tw3_lQ2n-b_9/preview"></iframe>
+                        </div>
+                        <h4>python Tutorial part-10</h4><br>
+                    </div>
+                    <div class="col-md-3">
                         <div class="embed-responsive embed-responsive-16by9 rounded">
                             <iframe class="embed-responsive-item" allowfullscreen
                                 src="https://drive.google.com/file/d/1nniT2_Pheh1KdKaXhr05knf5Gsqp1xT9/preview"></iframe>
                         </div>
                         <h4>python Tutorial part-11</h4><br>
+                    </div>
 
+                    <div class="col-md-3">
+                        <div class="embed-responsive embed-responsive-16by9 rounded">
+                            <iframe class="embed-responsive-item" allowfullscreen
+                                src="https://drive.google.com/file/d/1ZlL4PF0xJ1qj7S3IbKfRB_YQahr2PTln/preview"></iframe>
+                        </div>
+                        <h4>python Tutorial part-12</h4><br>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="embed-responsive embed-responsive-16by9 rounded">
+                            <iframe class="embed-responsive-item" allowfullscreen
+                                src="https://drive.google.com/file/d/1pLZBzW3WuDDkYAhVlY_E7isaWXaqD4MX/preview"></iframe>
+                        </div>
+                        <h4>python Tutorial part-13</h4><br>
+                    </div>
+                </div>
+
+                <!-- third row -->
+                <div class="row">
+
+                    <div class="col-md-3">
                         <div class="embed-responsive embed-responsive-16by9 rounded">
                             <iframe class="embed-responsive-item" allowfullscreen
                                 src="https://drive.google.com/file/d/14CdIILfprj9aT2AJBkBzh_Q2wCxMuxu9/preview"></iframe>
                         </div>
                         <h4>python Tutorial part-14</h4><br>
+                    </div>
 
+                    <div class="col-md-3">
+                        <div class="embed-responsive embed-responsive-16by9 rounded">
+                            <iframe class="embed-responsive-item" allowfullscreen
+                                src="https://drive.google.com/file/d/13moiz2DYNR3LFM-sQ0VHxRyH8dXqiBdq/preview"></iframe>
+                        </div>
+                        <h4>python Tutorial part-15</h4><br>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="embed-responsive embed-responsive-16by9 rounded">
+                            <iframe class="embed-responsive-item" allowfullscreen
+                                src="https://drive.google.com/file/d/1C3Oq4Ay_UGI4nC0vHgnsUuXNFBik7WB0/preview"></iframe>
+                        </div>
+                        <h4>python Tutorial part-16</h4><br>
+                    </div>
+                    <div class="col-md-3">
                         <div class="embed-responsive embed-responsive-16by9 rounded">
                             <iframe class="embed-responsive-item" allowfullscreen
                                 src="https://drive.google.com/file/d/1H9wWWFjVOPiSB06WiGx5yTjW4bGMrgn6/preview"></iframe>
                         </div>
                         <h4>python Tutorial part-17</h4><br>
                     </div>
+                </div>
 
+                <!-- fourth row -->
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="embed-responsive embed-responsive-16by9 rounded">
+                            <iframe class="embed-responsive-item" allowfullscreen
+                                src="https://drive.google.com/file/d/1efuUiOavonfnqRnEAMPVv_D5vKCqi5Fs/preview"></iframe>
+                        </div>
+                        <h4>python Tutorial part-18</h4><br>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="embed-responsive embed-responsive-16by9 rounded">
+                            <iframe class="embed-responsive-item" allowfullscreen
+                                src="https://drive.google.com/file/d/19A5HU7oYuDvt48vOhAuHVwB_MCoKVBWr/preview"></iframe>
+                        </div>
+                        <h4>Database managment common video</h4><br>
+                    </div>
                 </div>
 
             </div>
